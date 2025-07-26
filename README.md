@@ -23,5 +23,6 @@ How the Conversion Works
 4. Mosaic: Uses half-block and full-block characters for a mosaic effect.
 
 Reference
-https://github.com/Im-Rises/video-stream-ascii-player
-https://www.npmjs.com/package/ogl
+- https://github.com/Im-Rises/video-stream-ascii-player
+- https://www.npmjs.com/package/ogl
+- https://tympanus.net/codrops/2024/11/13/creating-an-ascii-shader-using-ogl/
