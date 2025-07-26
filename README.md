@@ -2,19 +2,11 @@
 
 Sample implementation attempt at transforming images and videos into ASCII, ANSI, BBS, and Mosaic styles with real-time processing and beautiful retro aesthetics.
 
-## ✨ Features
-
-- **🚀 WebGL2 Acceleration**: GPU-powered rendering using the OGL library for smooth performance
-- **🎨 Multiple Art Styles**: 
+## ✨ Features & Art Styles
   - **ASCII**: Classic text art using standard ASCII characters
   - **ANSI**: Colorized terminal output with escape codes
   - **BBS**: Bulletin Board System style with extended characters
   - **Mosaic**: Block-based patterns using half-height characters
-- **📁 Multi-Format Support**: Upload images (PNG, JPG, GIF) and videos (MP4, WebM)
-- **🎛️ Real-Time Controls**: Adjust width, height, contrast, and brightness on the fly
-- **💾 Export Functionality**: Download your creations as text files
-- **📱 Responsive Design**: Works seamlessly across desktop and mobile devices
-- **🌙 Dark Theme**: Retro computing aesthetics with neon accent colors
 
 ## 🎯 Demo
 
@@ -83,33 +75,6 @@ How the Conversion Works
 3. BBS: Uses a different set of block/line characters.
 4. Mosaic: Uses half-block and full-block characters for a mosaic effect.
 
-### ASCII
-```
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-```
-
-### ANSI
-```
-████████████████████████████████████████████████████████████████████████████
-████████████████████████████████████████████████████████████████████████████
-```
-
-### BBS
-```
-█▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬█
-█▫▪•∙·∙•▪▫▫▪•∙·∙•▪▫▫▪•∙·∙•▪▫▫▪•∙·∙•▪▫▫▪•∙·∙•▪▫▫▪•∙·∙•▪▫▫▪•∙·∙•▪▫▫▪•∙·∙•▪▫█
-█▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬█
-```
-
-### Mosaic
-```
-█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-```
-
-## 🔧 Configuration
-
 ### Conversion Settings
 
 - **Width**: 20-200 characters (default: 80)
@@ -122,10 +87,6 @@ How the Conversion Works
 - **Images**: PNG, JPG, JPEG, GIF, WebP
 - **Videos**: MP4, WebM, OGV
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Inspired by retro computing and terminal art aesthetics
@@ -133,15 +94,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to the [OGL](https://github.com/oframe/ogl) library for WebGL abstraction
 - Reference implementation: [video-stream-ascii-player](https://github.com/Im-Rises/video-stream-ascii-player)
 
-## 📊 Browser Support
-
-- Chrome 56+
-- Firefox 51+
-- Safari 15+
-- Edge 79+
-
 *Requires WebGL2 support*
 
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ---
 
 <div align="center">
